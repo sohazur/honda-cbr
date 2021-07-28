@@ -36,3 +36,8 @@ body {
 .gray-img {
   filter: grayscale(100%);
 }
+
+/* Happy Customers Section */
+.customer-card-img {
+  padding: 2.5rem 5.4rem;
+}
