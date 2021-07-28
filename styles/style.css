@@ -8,7 +8,7 @@ body {
 
 .honda-h1 {
   font-weight: 600;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .honda-btn {
@@ -18,6 +18,11 @@ body {
   border-radius: 0.3rem;
 }
 
+.honda-text-color {
+  color: #e76f51;
+  font-weight: 600;
+}
+
 /* Header Styles */
 .header-bg-color {
   background-color: #264653;
@@ -25,4 +30,9 @@ body {
 
 .header-text-p-color {
   color: #e0e0e0;
+}
+
+/* Feature Bikes Section */
+.gray-img {
+  filter: grayscale(100%);
 }
