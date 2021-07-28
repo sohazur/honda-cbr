@@ -1,0 +1,28 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* Common Styles */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.honda-h1 {
+  font-weight: 600;
+  font-size: 4rem;
+}
+
+.honda-btn {
+  background-color: #e76f51;
+  color: white;
+  padding: 0.6rem 2.5rem;
+  border-radius: 0.3rem;
+}
+
+/* Header Styles */
+.header-bg-color {
+  background-color: #264653;
+}
+
+.header-text-p-color {
+  color: #e0e0e0;
+}
