@@ -30,7 +30,64 @@
             form and function. It’s narrow, light, and a total blast to ride
             around town.
           </p>
-          <button class="btn honda-btn">Purchase</button>
+          <!-- Purchase Button -->
+          <button
+            type="button"
+            class="btn honda-btn"
+            data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop"
+          >
+            Purchase
+          </button>
+          <!-- Modal for Purchase Button -->
+          <div
+            class="modal fade"
+            id="staticBackdrop"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            tabindex="-1"
+            aria-labelledby="staticBackdropLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h3 class="modal-title text-dark" id="staticBackdropLabel">
+                    Don't miss the chance!
+                  </h3>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <p class="text-dark">
+                    We are running a special promotion for up to 30% discount
+                    for ordering online. You can pay both online or offline in
+                    our any showroom!
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Pay Offline
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Pay Online
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="col-lg-6 d-flex justify-content-center">
           <img src="images/header-bike.png" alt="Red CBR Bike" />
