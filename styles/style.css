@@ -1,5 +1,6 @@
 /* Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 /* Common Styles */
 body {
@@ -40,4 +41,9 @@ body {
 /* Happy Customers Section */
 .customer-card-img {
   padding: 2.5rem 5.4rem;
+}
+
+/* FAQ Section */
+.honda-accordian-text {
+  font-family: "Inter", sans-serif;
 }
