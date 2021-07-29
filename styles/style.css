@@ -5,6 +5,7 @@
 /* Common Styles */
 body {
   font-family: "Poppins", sans-serif;
+  width: 100%;
 }
 
 .honda-h1 {
@@ -36,11 +37,6 @@ body {
 /* Feature Bikes Section */
 .gray-img {
   filter: grayscale(100%);
-}
-
-/* Happy Customers Section */
-.customer-card-img {
-  padding: 2.5rem 5.4rem;
 }
 
 /* FAQ Section */
